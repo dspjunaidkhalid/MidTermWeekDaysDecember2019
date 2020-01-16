@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
   </component>
   <component name="ProjectId" id="1WSLCNW8rN5EVRPAJsPFzwsxBME" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
