@@ -20,43 +20,53 @@ A. Array. An array is a data structure that contains a group of elements. Typica
 
 
 Q. what is the difference between the Array and ArrayList?
-A. A list is a different kind of data structure from an array. The biggest difference is in the idea of direct access Vs sequential access. Arrays allow both; direct and sequential access, while lists allow only sequential access.
+A. A list is a different kind of data structure from an array. The biggest difference is in the idea of direct access Vs sequential access. Arrays allow both;
+direct and sequential access, while lists allow only sequential access.
 
 Q. what is LinkedList?
-A. Linked List are linear data structures where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part. The elements are linked using pointers and addresses.
+A. Linked List are linear data structures where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part.
+ The elements are linked using pointers and addresses.
 
 Q. How is an Array different from Linked List?
-A. Caching is better in Arrays as all elements are allocated contiguous memory space. Coding is more complex than Arrays. No size constraint on Linked List, unlike Arrays. Insertion/Deletion is faster in Linked List and access is faster in Arrays.
+A. Caching is better in Arrays as all elements are allocated contiguous memory space. Coding is more complex than Arrays. No size constraint on Linked List, unlike Arrays.
+Insertion/Deletion is faster in Linked List and access is faster in Arrays.
 
 Q. what is queue?
 A. A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
 
 Q. what is stack?
-A. A stack is a basic data structure that can be logically thought of as a linear structure represented by a real physical stack or pile, a structure where insertion and deletion of items takes place at one end called top of the stack.
+A. A stack is a basic data structure that can be logically thought of as a linear structure represented by a real physical stack or pile,
+ a structure where insertion and deletion of items takes place at one end called top of the stack.
 
 Q. what is FIFO and LIFO?
 A. FIFO is queue in data structure. LIFO is stack in data structure.
 
 
 Q. what is the order of complexity?
-A. Complexity can be constant, logarithmic, linear, n*log(n), quadratic, cubic, exponential, etc. This is respectively the order of constant, logarithmic, linear and so on, number of steps, are executed to solve a given problem.
+A. Complexity can be constant, logarithmic, linear, n*log(n), quadratic, cubic, exponential, etc. This is respectively the order of constant, logarithmic,
+linear and so on, number of steps, are executed to solve a given problem.
 
 Q. What is the best case to search an element from an array?
-A. Any sort of comparison will contribute 1 to the count of comparisons. For example, the condition used to terminate a loop, will also contribute 1 to the count of comparisons each time it gets executed.
+A. Any sort of comparison will contribute 1 to the count of comparisons. For example, the condition used to terminate a loop,
+will also contribute 1 to the count of comparisons each time it gets executed.
 
 Q.  what is the worst case to search an element from an array?
-A.  The worst case complexity is O(n/2) (equivalent to O(n)) when element is in the middle or not present in the array. The best case complexity is O(1) when element is first or last element in the array.
+A.  The worst case complexity is O(n/2) (equivalent to O(n)) when element is in the middle or not present in the array.
+The best case complexity is O(1) when element is first or last element in the array.
 
 
 Q. what is tree in data structure?
-A. Tree is a hierarchical data structure which stores the information naturally in the form of hierarchy style. Tree is one of the most powerful and advanced data structures. It is a non-linear data structure compared to arrays, linked lists, stack and queue. It represents the nodes connected by edges.
+A. Tree is a hierarchical data structure which stores the information naturally in the form of hierarchy style. Tree is one of the most powerful and advanced data structures.
+It is a non-linear data structure compared to arrays, linked lists, stack and queue. It represents the nodes connected by edges.
 
 
 Q. what is graph in data structure?
-A. A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
+A. A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices,
+ and the links that connect the vertices are called edges.
 
 Q. what is the difference between the HashTable and HashMap?
-A. There are several differences between HashMap and Hashtable in Java: Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones. Hashtable does not allow null keys or values.
+A. There are several differences between HashMap and Hashtable in Java: Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for non-threaded applications,
+as unsynchronized Objects typically perform better than synchronized ones. Hashtable does not allow null keys or values.
 
 Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 A. - RDBMS uses Array data structures
@@ -64,7 +74,8 @@ A. - RDBMS uses Array data structures
    - Hierarchical data model uses Trees data structures
 
 Q. How HashMap works in java?
-A. HashMap in Java works on hashing principle. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key. HashMap internally stores mapping in the form of Map.Entry object which contains both key and value object.
+A. HashMap in Java works on hashing principle. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key.
+ HashMap internally stores mapping in the form of Map.Entry object which contains both key and value object.
 
 Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
 A. This exception is thrown when the index is either negative or greater than or equal to the size of the array.
@@ -76,7 +87,8 @@ A. - Manually.
    - Object.clone()
 
 Q. What is difference between an array and a linked list?
-A. An array is the data structure that contains a collection of similar type data elements whereas the Linked list is considered as non-primitive data structure contains a collection of unordered linked elements known as nodes.
+A. An array is the data structure that contains a collection of similar type data elements whereas the Linked list is considered as non-primitive data structure contains a
+collection of unordered linked elements known as nodes.
 
 Q. What is DFS and BFS?
 A. - BFS stands for Breadth First Search. DFS stands for Depth First Search.
@@ -87,7 +99,8 @@ Q. What is Recursion?
 A. Recursion is the process of defining something in terms of itself. As it relates to java programming, recursion is the attribute that allows a method to call itself.
 
 Q. What are linear and non linear data Structures?
-A. The main difference between linear and non linear data structures is that linear data structures arrange data in a sequential manner while nonlinear data structures arrange data in a hierarchical manner, creating a relationship among the data elements
+A. The main difference between linear and non linear data structures is that linear data structures arrange data in a sequential manner while nonlinear data structures arrange data
+in a hierarchical manner, creating a relationship among the data elements
 
 Q. What is Big-(O)-notation?
 A. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,5 +118,9 @@
       <screen x="0" y="23" width="1536" height="891" />
     </state>
     <state x="513" y="321" key="com.intellij.ide.util.TipDialog/0.23.1536.891@0.23.1536.891" timestamp="1579137933044" />
+    <state x="376" y="206" width="670" height="676" key="search.everywhere.popup" timestamp="1579369263128">
+      <screen x="0" y="23" width="1536" height="891" />
+    </state>
+    <state x="376" y="206" width="670" height="676" key="search.everywhere.popup/0.23.1536.891@0.23.1536.891" timestamp="1579369263128" />
   </component>
 </project>
