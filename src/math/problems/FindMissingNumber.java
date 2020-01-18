@@ -1,7 +1,14 @@
 package math.problems;
 
 public class FindMissingNumber {
-
+    static int getMissingNo(int a[], int n)
+    {
+        int i, total;
+        total = (n + 1) * (n + 2) / 2;
+        for (i = 0; i < n; i++)
+            total -= a[i];
+        return total;
+    }
     public static void main(String[] args) {
         /*
          * If n = 10, then array will have 9 elements in the range from 1 to 10.
@@ -10,5 +17,14 @@ public class FindMissingNumber {
          */
          int [] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
 
+
+
+        /* program to test above function */
+
+          //  int a[] = { 1, 2, 4, 5, 6 };
+            int miss = getMissingNo(array, 5);
+            System.out.println(miss);
+        }
+
     }
-}
+
