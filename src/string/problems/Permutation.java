@@ -43,6 +43,7 @@ public class Permutation {
             charArray[i] = charArray[j];
             charArray[j] = temp;
             return String.valueOf(charArray);
+
         }
 
 }
