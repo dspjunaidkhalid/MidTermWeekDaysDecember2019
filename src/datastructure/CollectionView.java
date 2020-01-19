@@ -16,7 +16,7 @@ public static void main(String[] args) {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
-        /* Get values based on key*/
+
         String var = map.get(2);
         System.out.println("Value at index 2 is: " + var);
         Set set2 = map.entrySet();

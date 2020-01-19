@@ -13,11 +13,11 @@ public class UseQueue {
 		 */
 		Queue<String> waitingQueue = new LinkedList<>();
 
-		// Adding new elements to the Queue (The Enqueue operation)
-		waitingQueue.add("Chris");
-		waitingQueue.add("John");
-		waitingQueue.add("Mark");
-		waitingQueue.add("Steven");
+
+		waitingQueue.add("Sir");
+		waitingQueue.add("Fahim");
+		waitingQueue.add("Seema");
+		waitingQueue.add("Bursha");
 
 		System.out.println("WaitingQueue : " + waitingQueue);
 

@@ -13,10 +13,10 @@ public class DataReader {
 
 		System.out.println("Initial Stack: " + STACK);
 
-		// Displaying the Stack
+
 		System.out.println("The stack is: " + STACK);
 
-		// Checking for the element "4"
+
 		System.out.println("Does the stack contains '4'? "
 				+ STACK.search("PNT"));
 
