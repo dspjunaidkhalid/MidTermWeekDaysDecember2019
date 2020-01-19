@@ -1,8 +1,6 @@
 package datastructure;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 
 public class CollectionView {
 
@@ -17,6 +15,17 @@ public static void main(String[] args) {
         map.put(4, "Boston");
         map.put(5, "San Jose");
         map.put(6, "Seattle");
+
+        /* Get values based on key*/
+        String var = map.get(2);
+        System.out.println("Value at index 2 is: " + var);
+        Set set2 = map.entrySet();
+        Iterator iterator2 = set2.iterator();
+        while (iterator2.hasNext()) {
+                Map.Entry mentry2 = (Map.Entry) iterator2.next();
+                System.out.print("Key is: " + mentry2.getKey() + " & Value is: ");
+                System.out.println(mentry2.getValue());
+        }
 
 
 
