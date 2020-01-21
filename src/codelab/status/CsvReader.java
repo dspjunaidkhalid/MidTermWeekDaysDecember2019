@@ -19,19 +19,27 @@ public class CsvReader {
         String cvsSplitBy = ",";
         BufferedReader br = null;
         List<Trainee> roster = new ArrayList<Trainee>();
+        int counter = 0;
+        int totalScore = 0;
 
         try {
             br = new BufferedReader(new FileReader(csvFilePath));
             int lineNumber = 0;
+            
             while ((line = br.readLine()) != null) {
                 if(lineNumber == 0) {
                     lineNumber++;
                     continue;
                 }
-                String[] name = line.split(cvsSplitBy);
-                roster.add(new Trainee(name[Integer.parseInt("505")].replace("\"", ""), name[Integer.parseInt("15")].replace("\"",
-                        ""), Integer.parseInt(name[20])));
-
+                counter++;
+                String[] rowData = line.split(cvsSplitBy);
+                if (rowData.length > 2){
+                    String[] name = new String[0];   
+                    int score = Integer.parseInt(name[8]);
+                    totalScore += score; 
+                    roster.add(new Trainee(rowData[5].replace("\"", ""), rowData[4].replace("\"",""),
+                            score));
+                }
             }
 
         } catch (IOException e) {
@@ -62,6 +70,10 @@ public class CsvReader {
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
             }
         }
+
+        
+        float average = totalScore/counter;
+        System.out.println("The average score of the class "+average);
 
     }
 
